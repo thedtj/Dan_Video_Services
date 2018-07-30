@@ -1,0 +1,59 @@
+/* Let's go kid. You can do this. */
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #222;
+  background-color: #ededed;
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(1em + 1vh);
+}
+
+h1 { font-size: 1.82rem; }
+
+h2 { font-size: 1.45rem; }
+
+/* ------------------- HEADER -------------------- */
+
+.page-head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  background-color: dodgerblue;
+  border-bottom: 2px solid black;
+  width: 100vw;
+  height: 8vh;
+  display: none;
+}
+
+.nav-bar {
+  list-style-type: none;
+  direction: rtl;
+}
+
+.nav-bar_item {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+/* ------------------- CONTENT -------------------- */
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  border: 1px dotted rebeccapurple;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
